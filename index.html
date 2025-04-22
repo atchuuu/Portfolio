@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atchuta Kumar | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode oceanic-theme">
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <div class="nav-container">
+        <div class="nav-menu">
+            <div class="nav-item active" data-section="home">
+                <i class="fas fa-home"></i>
+                <span class="nav-tooltip">Home</span>
+            </div>
+            <div class="nav-item" data-section="skills">
+                <i class="fas fa-code"></i>
+                <span class="nav-tooltip">Skills</span>
+            </div>
+            <div class="nav-item" data-section="projects">
+                <i class="fas fa-project-diagram"></i>
+                <span class="nav-tooltip">Projects</span>
+            </div>
+            <div class="nav-item" data-section="achievements">
+                <i class="fas fa-trophy"></i>
+                <span class="nav-tooltip">Achievements</span>
+            </div>
+            <div class="nav-item" data-section="education">
+                <i class="fas fa-graduation-cap"></i>
+                <span class="nav-tooltip">Education</span>
+            </div>
+            <div class="nav-item" data-section="contact">
+                <i class="fas fa-envelope"></i>
+                <span class="nav-tooltip">Contact</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ocean Life Decorations -->
+    <div class="ocean-life" id="oceanLife"></div>
+
+    <!-- Sections -->
+    <section id="home">
+        <div class="section-content">
+            <div class="home-content">
+                <h1>Atchuta <span>Kumar</span></h1>
+                <h3>Computer Science Engineer</h3>
+                <p>Passionate developer with expertise in MERN stack, Python, and AI technologies. I build innovative solutions that solve real-world problems with clean, efficient code.</p>
+                
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/atchuthkumari/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/atchuuu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:atchuth523@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                
+                <div class="btn-container">
+                    <a href="assets/images/cv/Atchuta_Kumar_CV.pdf" class="btn" id="download-cv" download>Download CV</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            
+            <div class="home-image">
+                <img src="assets/images/profile/profile.jpg" alt="Atchuta Kumar Profile" onerror="this.src='https://via.placeholder.com/400?text=Profile+Image'">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2 class="section-title">My Skills</h2>
+            
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-copyright"></i>
+                            </div>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <span>CSS3</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <span>React.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code-branch"></i>
+                            </div>
+                            <span>Express.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="Tailwind CSS">
+                            </div>
+                            <span>Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-table"></i>
+                            </div>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI/ML</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <span>NLP</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <span>ML Algorithms</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <span>Chatbots</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <span>JWT</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-file-excel"></i>
+                            </div>
+                            <span>Excel Automation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2 class="section-title">My Projects</h2>
+            
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/rohit-cares.jpg" onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80'" alt="Rohit Cares Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Rohit Cares Management System</h3>
+                        <span class="date">February 2025 - Present</span>
+                        <p>A comprehensive property rental management system built with MERN stack that automates invoice generation and utility management.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-item">React.js</span>
+                            <span class="tech-item">Node.js</span>
+                            <span class="tech-item">MongoDB</span>
+                            <span class="tech-item">Tailwind CSS</span>
+                            <span class="tech-item">JWT</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/atchuuu/RCMS" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/dev-a-chatbot.jpg" onerror="this.src='https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80'" alt="Dev-A Chatbot">
+                    </div>
+                    <div class="project-content">
+                        <h3>Dev-A Chatbot</h3>
+                        <span class="date">November 2024 - December 2024</span>
+                        <p>An AI-driven chatbot for interactive gaming conversations using Hugging Face API, trained to simulate real-time banter and insights.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">Hugging Face</span>
+                            <span class="tech-item">NLP</span>
+                            <span class="tech-item">Flask</span>
+                            <span class="tech-item">React</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/atchuuu/DEV-A" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/projects/sentiment-analysis.jpg" onerror="this.src='https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80'" alt="Sentiment Analysis">
+                    </div>
+                    <div class="project-content">
+                        <h3>Twitter Sentiment Analysis</h3>
+                        <span class="date">September 2024 - October 2024</span>
+                        <p>A sentiment analysis model for classifying tweets (positive, negative, neutral) with 83% accuracy using NLP and machine learning.</p>
+                        
+                        <div class="project-tech">
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">NLP</span>
+                            <span class="tech-item">Machine Learning</span>
+                            <span class="tech-item">Feature Extraction</span>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/atchuuu/Sentiment-Analysis-Twitter" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements">
+        <div class="section-content">
+            <h2 class="section-title">Achievements & Experience</h2>
+            
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <h3><i class="fas fa-trophy"></i> Organized Tech Event</h3>
+                    <span class="date">2024</span>
+                    <p>Led the planning & execution of a successful tech event with college club TechStack, raising over 3 lakh rupees.</p>
+                    <ul>
+                        <li>Coordinated with sponsors and participants</li>
+                        <li>Managed event logistics and marketing</li>
+                        <li>Created engaging technical workshops</li>
+                    </ul>
+                </div>
+                
+                <div class="achievement-card">
+                    <h3><i class="fas fa-medal"></i> Dean's Top 10%</h3>
+                    <span class="date">2023-2024</span>
+                    <p>Recognized as one among Dean's top 10% students at university for academic performance and extra-curricular activities.</p>
+                    <ul>
+                        <li>Consistently high academic performance</li>
+                        <li>Active participation in technical events</li>
+                        <li>Leadership in student organizations</li>
+                    </ul>
+                </div>
+                
+                <div class="achievement-card">
+                    <h3><i class="fas fa-laptop-code"></i> DSA Camp Completion</h3>
+                    <span class="date">2024</span>
+                    <p>Completed an intensive 84-days DSA camp, solving 500+ coding problems to master data structures and algorithms.</p>
+                    <ul>
+                        <li>Daily coding challenges</li>
+                        <li>Competitive programming practice</li>
+                        <li>Advanced algorithm implementation</li>
+                    </ul>
+                </div>
+                
+                <div class="achievement-card">
+                    <h3><i class="fas fa-briefcase"></i> Campus Ambassador</h3>
+                    <span class="date">Kinghills Travels | June 2024 - December 2024</span>
+                    <p>Boosted travel package sign-ups by 20% through targeted promotions and organized campus events to drive brand awareness.</p>
+                    <ul>
+                        <li>Generated over 1 lakh rupees in sales</li>
+                        <li>Created marketing campaigns</li>
+                        <li>Managed student engagement</li>
+                    </ul>
+                </div>
+                
+                <div class="achievement-card">
+                    <h3><i class="fas fa-hands-helping"></i> Mentor</h3>
+                    <span class="date">Mentorship 2.0, LPU | February 2024 - April 2024</span>
+                    <p>Created and organized a team to work on security projects using Python and provided technical and mental support to mentees.</p>
+                    <ul>
+                        <li>Project guidance and code reviews</li>
+                        <li>Technical workshops and sessions</li>
+                        <li>Personal development counseling</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2 class="section-title">Education & Certifications</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Lovely Professional University</h3>
+                        <span class="date">2022 - 2026</span>
+                        <p>Bachelor of Technology in Computer Science and Engineering</p>
+                        <p>CGPA: 8.03</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Aakash Educational Institute</h3>
+                        <span class="date">2020 - 2022</span>
+                        <p>Intermediate with Science</p>
+                        <p>Percentage: 84.40%</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>De Paul School</h3>
+                        <span class="date">2019 - 2020</span>
+                        <p>Matriculation</p>
+                        <p>Percentage: 80.20%</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Summer Training on Competitive Programming</h3>
+                        <span class="date">Hitbullseye | June 2024</span>
+                        <p>Intensive training in problem-solving and competitive coding techniques.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Introduction to MongoDB</h3>
+                        <span class="date">MongoDB University | June 2024</span>
+                        <p>Fundamentals of NoSQL databases and MongoDB operations.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Mastering DSA with C and C++</h3>
+                        <span class="date">Udemy | April 2024</span>
+                        <p>Comprehensive course on data structures and algorithms implementation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <a href="mailto:atchuth523@gmail.com">atchuth523@gmail.com</a>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <a href="tel:+916303054457">+91 6303054457</a>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <a href="https://linkedin.com/in/atchuthkumar1/" target="_blank">linkedin.com/in/atchuthkumar1</a>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/atchuuu" target="_blank">github.com/atchuuu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/916303054457" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
